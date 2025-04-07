@@ -22,5 +22,5 @@ function calculateConvert() {
 
   // output
   document.getElementById("answer").innerHTML =
-    "your dgree in celsius is: " + ConvertedToCelsius.toFixed(2) + "°C"
+    "your dgree in celsius is: " + ConvertedToCelsius.toFixed(3) + "°C"
 }
